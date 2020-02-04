@@ -87,11 +87,12 @@ Pages 是github类网站提供的免费的静态网页托管服务，既然GitBo
 
 ### 推送
 
-    git push -u origin pages
-现在开启git托管网站的pages服务即可。
+    git push -u origin gh-pages
+然后在github setting中开启pages服务即可。
 
-### 上述任务的自动化脚本
-命令行的精髓在于可以自动执行，如下面的脚本，可以完成同时更新master分支和pages分支的目的。
+## 上述任务的自动化脚本
+
+命令行的精髓在于可以自动执行，如下面的脚本，保存为gitbook.sh，可以完成同时更新master分支和gh-pages分支的目的。
 
     git checkout master
     git add .
