@@ -1,10 +1,11 @@
 # Gitbook 个人使用指南
 
-> GitBook 是一个基于 Node.js 的命令行工具，可使用Markdown来编写内容，配合插件制作精美的电子书。可以托管于多个网站平台。
+> GitBook 是一个基于 Node.js 的命令行工具，使用 Git 和 Markdown 来构建书籍，可以托管于多个网站平台。也可以将你的书输出很多格式：PDF，ePub，mobi，或者输出为静态网页。
 
 这本书是对于网上内容的尝试性总结，希望能够涵盖基本的使用Gitbook的知识，简单介绍如何安装、编写、生成、发布一本在线图书。
 
 ## 支持格式
+
 GitBook支持输出多种文档格式，如：
 
 - 静态站点：GitBook默认输出该种格式，生成的静态站点可直接托管搭载Github Pages服务上；
@@ -14,5 +15,10 @@ GitBook支持输出多种文档格式，如：
 - JSON：一般用于电子书的调试或元数据提取。
 
 ## Gitbook项目地址
+
 - GitBook项目官网：http://www.gitbook.io
 - GitBook Github地址：https://github.com/GitbookIO/gitbook
+
+## 参考链接
+
+- [Gitbook文档（中文版）](https://chrisniael.gitbooks.io/gitbook-documentation/content/index.html)
