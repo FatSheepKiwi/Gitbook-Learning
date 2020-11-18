@@ -19,6 +19,13 @@ GitBook支持输出多种文档格式，如：
 - GitBook项目官网：http://www.gitbook.io
 - GitBook Github地址：https://github.com/GitbookIO/gitbook
 
+## Github Content Update
+
+使用master branch下的`gitbook.sh`可以帮助进行Repo更新。原理是Github使用Repo下的`gh-page` branch作为挂载Gitbook的源，每次Commit新的Change的时一并更新即可同时刷新两个branch。
+
+使用方法：
+
+    sh gitbook.sh "{commit message}"
 ## 参考链接
 
 - [Gitbook文档（中文版）](https://chrisniael.gitbooks.io/gitbook-documentation/content/index.html)
